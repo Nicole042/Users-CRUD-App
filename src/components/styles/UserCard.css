@@ -1,0 +1,133 @@
+
+.card {
+    display:flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    border: 1px solid rgba(218, 87, 119, 0.777);
+    width: fit-content;
+    padding: 2rem;
+    
+}
+
+.card_name {
+    border-bottom: 1px solid rgb(130, 131, 135);
+    padding-bottom: 8px;
+    font-size: 1.5rem;
+}
+
+.card_email_title {
+    color: rgb(205, 208, 217);
+    margin-bottom: 10px;
+}
+
+.card_email_content {
+    margin-top: 1px;
+}
+
+.card_birth_title {
+    color: rgb(205, 208, 217);
+}
+
+.card_birth_content {
+    padding-bottom: 8px;
+}
+
+.card_trash {
+    right: 0;
+    background-color: rgba(218, 87, 119, 0.777);
+}
+
+.card_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 0.7rem;
+}
+
+.bx {
+    font-size: 25px;
+}
+
+
+
+@media (max-width: 700px) {
+
+    .card_name {
+        padding-bottom: 5px;
+        font-size: 1rem;
+    }
+    .card_email_title {
+        margin-bottom: 8px;
+        font-size: 0.8rem;
+    }
+    
+    .card_email_content {
+        font-size: 0.7rem;
+    }
+    
+    .card_birth_title {
+        font-size: 0.8rem;
+    }
+    
+    .card_birth_content {
+        font-size: 0.7rem;
+    }
+    
+    .bx {
+        font-size: 18px;
+    }
+}
+    @media (max-width: 500px) {
+        .card_name {
+            padding-bottom: 3px;
+            font-size: 0.8rem;
+        }
+        .card_email_title {
+            font-size: 0.7rem;
+        }
+        
+        .card_email_content {
+            font-size: 0.6rem;
+        }
+        
+        .card_birth_title {
+            font-size: 0.7rem;
+        }
+        
+        .card_birth_content {
+            font-size: 0.6rem;
+        }
+        
+        .bx {
+            font-size: 13px;
+        }
+    }
+    @media (max-width: 375px) {
+            
+        .bx {
+            font-size: 10px;
+        }
+        .card_name {
+            padding-bottom: 1.5px;
+            font-size: 0.6rem;
+        }
+        .card_email_title {
+            font-size: 0.6rem;
+        }
+        
+        .card_email_content {
+            font-size: 0.5rem;
+        }
+        
+        .card_birth_title {
+            font-size: 0.6rem;
+        }
+        
+        .card_birth_content {
+            font-size: 0.5rem;
+        }
+    
+
+
+
+}
